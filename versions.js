@@ -1,7 +1,6 @@
 var latest = "1.0";
 var versions = [
   { version: "1.0", link: "/" },
-  { version: "1.1", link: "11" }
 ]
 var i;
 var links;
