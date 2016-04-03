@@ -1,3 +1,3 @@
 # Contribute
 
-Changes to the specification WILL result in a new version number where minor changes gives a new subversion (x.y; x=x; y+0.1) and bigger changes (or if the subversion is x.9) result in a new major version (x.y; x+1; y=0) the previous version (named index.html) is copied to xy.html (x=that versions major version number; y=that versions minor number;) add the new version to all other pages links section and update their "latest version"
+Changes to the specification WILL result in a new version number where minor changes gives a new subversion (x.y; x=x; y+0.1) and bigger changes (or if the subversion is x.9) result in a new major version (x.y; x+1; y=0) the previous version (named index.html) is copied to xy.html (x=that versions major version number; y=that versions minor number;) modify versions.js by efiting last versions link and adding thr new version
