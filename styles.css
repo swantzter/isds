@@ -33,6 +33,9 @@ nav {
   padding-left: .5em;
 }
 
+nav a {
+  color: #292f2f;
+}
 
 .flex-container {
   display: flex;
