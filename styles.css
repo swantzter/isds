@@ -66,6 +66,14 @@ nav {
   font-family: monospace;
   word-wrap: break-word;
   display: block;
+  margin-top: .7em;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
+
+.zero {
+  margin: 0;
+  padding: 0;
 }
 
 td {
