@@ -1,8 +1,9 @@
-var latest = "1.2";
+var latest = "2.0";
 var versions = [
   { version: "1.0", link: "/10" },
   { version: "1.1", link: "/11" },
-  { version: "1.2", link: "/" },
+  { version: "1.2", link: "/12" },
+  { version: "2.0", link: "/" },
 ]
 var i;
 var links;
