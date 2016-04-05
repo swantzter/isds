@@ -97,6 +97,14 @@ ul {
   padding-left: 1.5em;
 }
 
+ul li:not(:first-child) {
+    margin-top: .5em;
+}
+
+ul li li {
+    margin-top: .5em;
+}
+
 @media all and (max-width: 800px) {
   .hdn-mob {
     /*display: none;*/
