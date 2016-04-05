@@ -98,11 +98,11 @@ ul {
 }
 
 ul li:not(:first-child) {
-    margin-top: .5em;
+    margin-top: .3em;
 }
 
-ul li li {
-    margin-top: .5em;
+.ulno li li {
+    margin-top: .3em;
 }
 
 @media all and (max-width: 800px) {
