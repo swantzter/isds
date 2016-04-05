@@ -4,7 +4,8 @@ var versions = [
   { version: "1.1", link: "/11" },
   { version: "1.2", link: "/12" },
   { version: "2.0", link: "/20" },
-  { version: "2.1", link: "/" },
+  { version: "2.1", link: "/21" },
+  { version: "2.2", link: "/" },
 ]
 var i;
 var links;
