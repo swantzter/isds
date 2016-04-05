@@ -18,6 +18,12 @@ a:hover {
   color: #3baec4;
 }
 
+img {
+  max-width: 50%;
+  min-width: 33%;
+  margin-top: .3em;
+}
+
 nav {
   position: fixed;
   z-index: 200;
@@ -79,6 +85,10 @@ nav a {
   padding: 0;
 }
 
+.noborder {
+  border: none;
+}
+
 td {
   font-size: 14px;
   padding-right: .3em;
@@ -98,11 +108,11 @@ ul {
 }
 
 ul li:not(:first-child) {
-    margin-top: .3em;
+  margin-top: .3em;
 }
 
 .ulno li li {
-    margin-top: .3em;
+  margin-top: .3em;
 }
 
 @media all and (max-width: 800px) {
@@ -121,5 +131,10 @@ ul li:not(:first-child) {
   
   .lg {
     margin-right: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    width: 100%;
   }
 }
