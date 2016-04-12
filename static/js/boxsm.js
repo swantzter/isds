@@ -36,6 +36,6 @@ This specification is aimed to give Ops a better overlook of how their field age
         <span class="spec noborder">Not officially affiliated with Ingress or Niantic Labs.</span>
        `;
 
-(function() {
+/*(function() {
   document.getElementsByClassName("box sm")[0].innerHTML = content;
-})();
+})();*/
