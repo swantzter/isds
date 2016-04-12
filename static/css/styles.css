@@ -58,17 +58,18 @@ nav a {
   padding: .5em;
   margin-right: .5em;
   font-size: 14px;
-  max-width: 60%;
 }
 
 .lg {
   flex-grow: 4;
   word-wrap: break-word;
+  max-width: 80%;
 }
 
 .sm {
-  flex-grow: 3;
+  flex-grow: 2;
   margin-right: 0;
+  max-width: 20%;
 }
 
 .spec {
@@ -125,7 +126,7 @@ ul li:not(:first-child) {
     flex-direction: column;
   }
   
-  .box {
+  .lg {
     max-width: initial;
   }
   
@@ -133,6 +134,9 @@ ul li:not(:first-child) {
     margin-right: 0;
   }
   
+  .sm {
+    max-width: initial;
+  }
   img {
     max-width: 100%;
     width: 100%;
