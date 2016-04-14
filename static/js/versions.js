@@ -15,9 +15,9 @@ for (i = 0; i < versions.length; i++) {
 
 /* current */
 if ( window.location.pathname === "/" || window.location.pathname === "/index" || window.location.pathname === "/index.html") {
-  current = latest;
+  current = latest.toFixed(1);
 } else {
-  current = Number(window.location.pathname.replace("/", "").replace(".html", "")) / 10;
+  current = (Number(window.location.pathname.replace("/", "").replace(".html", "")) / 10).toFixed(1);
 }
 
 /* boxsm */
@@ -41,7 +41,7 @@ This specification is aimed to give Ops a better overlook of how their field age
                   </ul>
               </li>
               <li>
-                  <a href="gen">ISDS generator</a>
+                  <a href="#">ISDS generator</a> - Under Construction
               </li>
               <li>
                   <a href="https://github.com/svbeon/isds">GitHub</a>
