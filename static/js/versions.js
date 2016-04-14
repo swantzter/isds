@@ -26,18 +26,18 @@ This specification is aimed to give Ops a better overlook of how their field age
             <table>
                 <tr>
                     <td>Currently displaying:</td>
-                    <td>v` + current + `</td>
+                    <td>v${current}</td>
                 </tr>
                 <tr>
                     <td>Latest Version:</td>
-                    <td>v` + latest + `</td>
+                    <td>v${latest}</td>
             </table>
             <h2>Links</h2>
             <ul class="ulno">
               <li>
                   Other Versions
-                  <ul class="ulno" id="links">` + 
-                      links.replace("undefined", "") + `
+                  <ul class="ulno" id="links">
+                      ${links.replace("undefined", "")}
                   </ul>
               </li>
               <li>
