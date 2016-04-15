@@ -33,14 +33,29 @@ nav {
   background-color: #eee;
   color: #333;
   border-bottom: 1px solid #ddd;
-  height: 40px;
+  height: 45px;
   font-size: 38px;
   padding-bottom: 10px;
   padding-left: .5em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: baseline;
 }
 
 nav a {
   color: #292f2f;
+  margin: 0;
+  position: relative;
+}
+
+nav img{
+  min-width: 0;
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  margin-top: 5px;
+  display: relative;
 }
 
 .flex-container {
@@ -114,6 +129,10 @@ ul li:not(:first-child) {
 
 .ulno li li {
   margin-top: .3em;
+}
+
+.geninp {
+  position: relative;
 }
 
 @media all and (max-width: 800px) {
