@@ -21,6 +21,7 @@ if ( window.location.pathname === "/" || window.location.pathname === "/index" |
 }
 
 /* boxsm */
+var content = 'please use a nofern web browser that supports ES6';
 var content = `
 This specification is aimed to give Ops a better overlook of how their field agents have deployed the involved portals, or to be able to give simple instructions to agents on field how to deploy the resonators and mods.
             <table>
@@ -37,7 +38,7 @@ This specification is aimed to give Ops a better overlook of how their field age
               <li>
                   Other Versions
                   <ul class="ulno" id="links">
-                      ${links.replace("undefined", "")}
+                      ${links.replace("undefined", "").replace("[object HTMLUListElement]", "")}
                   </ul>
               </li>
               <li>
